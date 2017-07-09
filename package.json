@@ -1,0 +1,36 @@
+{
+  "name": "trendingtopic",
+  "version": "1.0.0",
+  "description": "Get tweets from a choosen trending topic from the list of four",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nooroel-imamdi/real-time-web-twitter-her.git"
+  },
+  "keywords": [
+    "twitter",
+    "realtime-web",
+    "minor",
+    "hva",
+    "socket",
+    "express",
+    "ejs"
+  ],
+  "author": "Nooroel Imamdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nooroel-imamdi/real-time-web-twitter-her/issues"
+  },
+  "homepage": "https://github.com/nooroel-imamdi/real-time-web-twitter-her#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3",
+    "twitter": "^1.7.1"
+  }
+}
