@@ -1,0 +1,75 @@
+<% include partials/header %>
+
+<section class="app-container">
+  <header>
+    <h1>Ontdek trending topics!</h1>
+  </header>
+
+  <section class="country-choice hide">
+    <header>
+      <h2>Kies een land</h2>
+    </header>
+    <form class="country-form">
+
+      <fieldset class="country-fieldset">
+			  <input type="radio" name="country" class="country-input" data-woeid="1" id="global" value="global" required>
+    		<label for="global">Wereldwijd</label>
+    	</fieldset>
+
+      <fieldset class="country-fieldset">
+    		<input type="radio" name="country" class="country-input" data-woeid="23424909" id="nl" value="nl" required>
+    		<label for="nl">Nederland</label>
+    	</fieldset>
+
+    	<fieldset class="country-fieldset">
+    		<input type="radio" name="country" class="country-input" data-woeid="23424975" id="uk" value="uk" required>
+    		<label for="uk">Verenigd Koninkrijk</label>
+    	</fieldset>
+
+    	<fieldset class="country-fieldset">
+    		<input type="radio" name="country" class="country-input" data-woeid="23424977" id="usa" value="usa" required>
+    		<label for="usa">Verenigde Staten</label>
+    	</fieldset>
+
+    	<button type="submit">Volgende</button>
+
+    </form>
+  </section>
+
+  <section class="topic-choice hide">
+    <header>
+      <h2>Kies een trending topic</h2>
+    </header>
+
+    <ul class="topic-list">
+
+    </ul>
+  </section>
+
+  <section class="tweets hide">
+    <header>
+      <h2>Inkomende tweets</h2>
+      <p>
+        Trending topic: <span class="topicChoice"></span>
+        <a href="" title="Kies nieuwe trending topic" class="try-again">Kies een andere trending topic</a>
+      </p>
+      <span class="status-realtime"><span class="realtime-indicator pulse"></span>Real-time</span>
+
+    </header>
+    <ol class="tweets-container">
+
+    </ol>
+    <section class="error hide">
+      <p>Er is een fout opgetreden.</p>
+      <button class="try-again">Probeer het opnieuw</button>
+    </section>
+  </section>
+
+  <section class="error-connection-message hide">
+    <p>Mogelijk is de verbinding met het internet verbroken. We zullen proberen de verbinding zo snel mogelijk te herstellen.</p>
+    <button class="try-again">Probeer het opnieuw</button>
+  </section>
+
+</section>
+
+<% include partials/footer %>
