@@ -1,5 +1,5 @@
 # Realtime Web - Twitter App
-Nooroel Imamdi - 500706701
+Nooroel Imamdi
 
 De applicatie: [live demo](https://trendingtopics-realtime-web.herokuapp.com/).
 
